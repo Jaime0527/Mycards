@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    src: url("../fonts/Palanquin_Dark/PalanquinDark-Bold.ttf");
+    font-family: "palanquin-bold";
+    
+}
+
+
+@font-face{
+    src: url("../fonts/Quicksand/Quicksand-VariableFont_wght.ttf");
+    font-family: "quicksand";
+}
+
+#subscribe{
+    background-color: #5b8e7d;
+    padding: 50px;
+    text-align: center;
+}
+
+#subscribe h1{
+    font-family: "palanquin-bold";
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 2.5em;
+    display: block;
+    margin: 30px;
+}
+
+
+
+#subscribe input[type="text"]{
+    font-family: "quicksand";
+    border: solid 2px #fff;
+    outline: none;
+    padding: 10px 70px;
+    font-size: 1.2em;
+}
+
+#subscribe input[type="submit"]{
+    font-family: "quicksand";
+    padding: 10px 40px;
+    font-size: 1.2em;
+    border: solid 3px #fff;
+    background-color: transparent;
+    color: #fff;
+    margin-left: 30px;
+    /* font-weight: bold; */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    
+}
+

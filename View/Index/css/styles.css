@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    src: url("../fonts/Palanquin_Dark/PalanquinDark-Bold.ttf");
+    font-family: "palanquin-bold";
+    
+}
+
+
+@font-face{
+    src: url("../fonts/Quicksand/Quicksand-VariableFont_wght.ttf");
+    font-family: "quicksand";
+}
+
+body{
+    background-color: #e8f1f2;
+}
+
+.container{
+    box-shadow: 10px 30px 40px #e4e4e4;
+    display: flex;
+    margin: 120px;
+    align-items: center;
+}
+
+
+.container .box-1{
+    text-align: center;
+}
+
+
+#container-1{
+    background-color: #fff;
+}
+
+#container-2{
+    background-color: #ff637d;
+}
+
+#container-3 {
+    /* background-color: #f4f1bb; */
+    border: solid 2px black;
+    background-color: #eaf2e3;
+    flex-direction: row-reverse;
+    
+}
+
+
+#container-1 .box-1{
+    box-shadow: 5px 15px 15px #e4e4e4;
+}
+
+.container div img{
+    display: inline-block;
+    width: 60%;
+}
+
+.container div {
+    padding: 40px;
+}
+
+.container .box-2 #title-box-2 h1{
+    font-family: "palanquin-bold";
+    font-size: 2rem;
+    
+}
+
+#container-1 .box-2 #title-box-2 h1::first-letter{
+    font-size: 1.2em;
+}
+
+q{
+    
+}
+
+
+#container-1 .box-2 #title-box-2 h1{
+    color: black;
+    text-align: left;
+
+}
+
+#container-2 .box-2 #title-box-2 h1{
+    color:#fff;
+    text-align: left;
+}
+
+#container-3 .box-2 #title-box-2 h1{
+    color:#000;
+    text-align: right;
+}
+
+#container-1 .box-2 #title-box-2{
+    border-left: 10px solid #2970ca;
+}
+
+#container-2 .box-2 #title-box-2{
+    border-left: 10px solid #fff;
+}
+
+#container-3 .box-2 #title-box-2{
+    border-left: 10px solid #000;
+}
+
+.box-2 p{
+    font-family: "quicksand";
+    font-size: 1.2em;
+    line-height: 2rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+
+}
+
+#container-2 .box-2 p{
+    color: #fff;
+}
+
+.container button{
+    font-family: "quicksand";
+    font-size: 1em;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+#container-1 .box-2 button{
+    
+    color: #2970ca;
+    border: solid 2px #2970ca;
+    background-color: transparent;
+
+}
+
+#container-2 .box-2 button{
+    color: white;
+    border: solid 1.5px white;
+    background-color: transparent;
+}
+
+#container-3 .box-2 button{
+    color: black;
+    border: solid 2px black;
+    background-color: transparent;
+}

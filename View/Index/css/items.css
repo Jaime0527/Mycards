@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    src: url("../fonts/Palanquin_Dark/PalanquinDark-Bold.ttf");
+    font-family: "palanquin-bold";
+    
+}
+
+
+@font-face{
+    src: url("../fonts/Quicksand/Quicksand-VariableFont_wght.ttf");
+    font-family: "quicksand";
+}
+
+@font-face{
+    src: url("../fonts/Didact_Gothic/DidactGothic-Regular.ttf");
+    font-family: "didact";
+}
+
+section{
+    display: flex;
+    margin: 120px;
+    flex-direction: row;
+}
+
+section .box-1, section .box-2{
+    width: 50%;
+}
+
+section img{
+    width: 100%;
+}
+
+section .box-1{
+    background-image: url("../img/pexels-elijah-o\'donnell-4066041.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+section .box-1 h1{
+    margin: 70px;
+    color: #fff;
+    font-family: "didact";
+    font-size: 6rem;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+section .box-1 h3{
+    margin: 70px;
+    color: #fff;
+    font-family: "didact";
+    font-weight: normal;
+    font-size: 2em;
+}
+
+section .box-1 button{
+    
+    border: solid 2px #fff;
+    color: #fff;
+    background-color: transparent;
+    margin-top: 70px;
+    margin-left:70px;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: "didact";
+    padding: 10px 50px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+section .box-1 button:hover{
+    color: #000;
+    border: none;
+    background-color: #fff;
+    
+}
+
+section #box-2-item-1, section #box-2-item-2{
+    display: inline-block;
+}
+
